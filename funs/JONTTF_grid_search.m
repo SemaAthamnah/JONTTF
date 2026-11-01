@@ -1,10 +1,9 @@
-function [Results,best] = JONTTF_grid_search( ...
+function [Results,best] = JONTTF_grid_search(A_cell,k,GT,lambda1_values,lambda2_values,p_values,opts)
 % Author: Sema Athamnah
 % Email: athamnah@msu.edu
 % Affiliation: Department of Biomedical Engineering
 %              Michigan State University
 %
-    A_cell,k,GT,lambda1_values,lambda2_values,p_values,opts)
 % Evaluate averaged U with ClusteringMeasure.
 % Return Results and best in memory; create no files or directories.
 % GT contains labels starting at 1. Labels are used without an offset.

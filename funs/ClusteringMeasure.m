@@ -3,7 +3,6 @@ function result = ClusteringMeasure(Y, predY)
 % Email: athamnah@msu.edu
 % Affiliation: Department of Biomedical Engineering
 %              Michigan State University
-% Sema Athamnah 2026
 %% -----------------------------------------------
 if size(Y,2) ~= 1
     Y = Y';
