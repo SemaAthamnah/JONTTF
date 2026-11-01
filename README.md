@@ -27,9 +27,9 @@ Citation details and DOI will be added when available.
 
 ## Usage
 
-1. Add both SSBM `.mat` files to `data/`.
-2. Open MATLAB, set the current folder to the repository root, and run `main`.
-3. The script performs a grid search for each noise level using `lambda1 = [0.01, 0.1, 1, 10, 100, 1000]`, `lambda2 = 1`, and `p = 1`.
-4. The script displays NMI plots for NB and NW. It does not save results or figures to disk.
+1. Open MATLAB, set the current folder to the repository root.
+2. In main.m, select the experiment by setting datasetType = 'NB'. Change 'NB' to 'NW' to run the other experiment.
+3. Run main. The script performs a grid search for each noise level using `lambda1 = [0.01, 1000]`, `lambda2 = 1`, and `p = 1`.
+4. The script displays NMI plots for NB/NW.
 
 The script uses the first sample at each noise level. Ground-truth labels are used for evaluation and to determine the number of communities, not for fitting. The `.mat` data layout has not yet been verified against uploaded datasets.
