@@ -1,4 +1,4 @@
-# JONTTF — Signed Multiplex Network Community Detection
+# Joint Orthogonal Nonnegative Tensor Tri-Factorization (JONTTF)
 
 **Author:** Sema Athamnah  
 **Email:** athamnah@msu.edu  
